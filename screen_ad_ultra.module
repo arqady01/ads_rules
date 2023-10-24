@@ -306,10 +306,6 @@
 ^https?://www\.zhihu\.com/api/v\d/answers/\d+/recommendations reject
 ^https?://a\.qiumibao\.com/activities/config\.php reject
 ^https?://.+?/allOne\.php\?ad_name reject
-^https?://(api|b)\.zhuishushenqi\.com/advert reject
-^https?://api\.zhuishushenqi\.com/splashes/ios reject
-^https?://api\.zhuishushenqi\.com/notification/shelfMessage reject
-^https?://api\.zhuishushenqi\.com/user/bookshelf-updated reject
 ^https?://itunes\.apple\.com/lookup\?id=575826903 reject
 ^https?://syh\.zybang\.com/com/adx/ reject
 ^https?://api\.izuiyou\.com/ad/ reject
@@ -961,16 +957,6 @@ redbook_json9=type=http-response,pattern=^https?:\/\/edith\.xiaohongshu\.com\/ap
 redbook_json10=type=http-response,pattern=^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\/categories,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js
 
 redbook_json11=type=http-response,pattern=^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/trending,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js
-
-ximalaya_json=type=http-response,pattern=^https?:\/\/.*\.xima.*\.com\/discovery-category\/customCategories,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/ximalaya_json.js
-
-ximalaya_json2=type=http-response,pattern=^https?:\/\/.*\.xima.*\.com\/focus-mobile\/focusPic,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/ximalaya_json.js
-
-ximalaya_json3=type=http-response,pattern=^https?:\/\/.*\.xima.*\.com\/discovery-feed\/v\d\/mix,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/ximalaya_json.js
-
-ximalaya_json4=type=http-response,pattern=^https?:\/\/.*\.xima.*\.com\/discovery-category\/v\d/category,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/ximalaya_json.js
-
-ximalaya_json5=type=http-response,pattern=^https?:\/\/.*\.xima.*\.com\/mobile-user\/v\d\/homePage,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/ximalaya_json.js
 
 rrtv_json=type=http-response,pattern=^https:\/\/api.juxingclub.com\/ad\/getAll,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/rrtv_json.js
 
